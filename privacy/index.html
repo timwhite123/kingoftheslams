@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy · King of the Slams</title>
+<style>
+  :root { --paper:#FAFBFC; --ink:#15171A; --ink2:#566070; --line:#D5DAE0; --gold:#FFC61A; --bp:#2A5A9C; }
+  @media (prefers-color-scheme: dark) { :root { --paper:#111214; --ink:#F2F3F5; --ink2:#A4ACB6; --line:#33383F; --bp:#8DB2E8; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 40px 20px 64px; }
+  header { display:flex; align-items:center; gap:12px; margin-bottom:28px; }
+  header img { width:44px; height:44px; border-radius:10px; }
+  header a { color:var(--ink); text-decoration:none; font-weight:800; }
+  h1 { font-size:34px; line-height:1.15; font-weight:900; letter-spacing:-0.5px; margin:0 0 6px; }
+  h2 { font-size:20px; margin:32px 0 8px; }
+  .kicker { font: 700 12px/1 ui-monospace, Menlo, monospace; letter-spacing:1.2px; text-transform:uppercase; color:var(--bp); }
+  .rule { height:7px; margin:14px 0 24px; background:
+      linear-gradient(var(--line),var(--line)) bottom/100% 1px no-repeat,
+      repeating-linear-gradient(90deg, var(--line) 0 1px, transparent 1px 6px) bottom/100% 3px no-repeat; }
+  p, li { color:var(--ink); }
+  .muted { color:var(--ink2); }
+  a { color:var(--bp); }
+  ul { padding-left: 20px; }
+  footer { margin-top:40px; color:var(--ink2); font-size:14px; }
+</style>
+</head>
+<body><main>
+<header><img src="../icon.png" alt=""><a href="../">King of the Slams</a></header>
+<div class="kicker">Last updated November 14, 2026</div>
+<h1>Privacy</h1>
+<div class="rule"></div>
+<p>King of the Slams doesn't collect your personal information. There are no accounts, ads, analytics, or tracking, and there is no server of ours that receives your data.</p>
+<h2>What stays on your phone</h2>
+<p>Your trade, language level, character, work week, reminder settings, saved items, reactions, and approximate location (city, state, and coordinates rounded to about a kilometer) are stored only on your device. Deleting the app, or using <b>Account → Reset my data</b>, removes them.</p>
+<h2>What leaves your phone, and why</h2>
+<ul>
+<li><b>Weather.</b> To show your forecast, the app sends your rounded coordinates to the U.S. National Weather Service (api.weather.gov). The request carries no name, account, or device identifier.</li>
+<li><b>News.</b> The app reads publishers' public news feeds directly, like opening their website. Publishers see a normal web request from your phone, such as its IP address.</li>
+<li><b>Location lookup.</b> If you use your location or a ZIP code, Apple's geocoding service turns it into a city and state.</li>
+<li><b>Reminders</b> are scheduled by iOS on your phone and never leave it.</li>
+</ul>
+<h2>Children</h2>
+<p>The app is not directed at children under 13.</p>
+<h2>Contact</h2>
+<p>Questions about privacy: <a href="https://github.com/timwhite123/kingoftheslams/issues">open an issue</a>.</p>
+<footer>King of the Slams · <a href="../privacy/">Privacy</a> · <a href="../support/">Support</a></footer>
+</main></body></html>
