@@ -36,8 +36,8 @@
 <p>Your trade, language level, character, work week, reminder settings, saved items, reactions, and approximate location (city, state, and coordinates rounded to about a kilometer) are stored only on your device. Deleting the app, or using <b>Account → Reset my data</b>, removes them.</p>
 <h2>What leaves your phone, and why</h2>
 <ul>
-<li><b>Weather.</b> To show your forecast, the app sends your rounded coordinates to the U.S. National Weather Service (api.weather.gov). The request carries no name, account, or device identifier.</li>
-<li><b>News.</b> The app reads publishers' public news feeds directly, like opening their website. Publishers see a normal web request from your phone, such as its IP address.</li>
+<li><b>Weather.</b> To show your forecast, the app sends your rounded coordinates to the U.S. National Weather Service (api.weather.gov). If you entered a ZIP code, it sends that ZIP to the U.S. Environmental Protection Agency (data.epa.gov) for the UV index. Neither request carries a name, account, or device identifier.</li>
+<li><b>News.</b> The app reads publishers' public news feeds directly and loads each story's thumbnail and the site's icon from that publisher, like opening their website. Publishers see a normal web request from your phone, such as its IP address.</li>
 <li><b>Location lookup.</b> If you use your location or a ZIP code, Apple's geocoding service turns it into a city and state.</li>
 <li><b>Reminders</b> are scheduled by iOS on your phone and never leave it.</li>
 </ul>
